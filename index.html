@@ -1,9 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<!--
-	Designed and developed by Hackersfriend 
-	Www.hackersfriend.com
--->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -144,10 +141,11 @@
                             <td> </td>
                             <td>
                                 <br>
-                                    <a href="#" class="btn btn-danger ml-5">Submit</a>
+                                    <a href="javascript: on_submit('student');" class="btn btn-danger ml-5">Submit</a>
                             </td>
                        </tr>
                     </table>
+                    <p class="text-danger" id="student"></p>
                    
                </form>
             </div>
@@ -194,11 +192,11 @@
                                      <td> </td>
                                      <td>
                                          <br>
-                                             <a href="#" class="btn btn-danger ml-5">Submit</a>
+                                             <a href="javascript: on_submit('teacher');" class="btn btn-danger ml-5">Submit</a>
                                      </td>
                                 </tr>
                              </table>
-                            
+                             <p class="text-danger" id="teacher"></p>
                         </form>
             </div>
         </div>
@@ -268,6 +266,11 @@
         </div>
 </div>
 </div>
+<script>
+    function on_submit(id){
+        document.getElementById(id).innerHTML="<b>We have received your data. We'll call you shortly!</b>"
+    }
+</script>
 
 <br>
 <br>
