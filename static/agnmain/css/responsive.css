@@ -1,0 +1,37 @@
+@media (max-width: 991px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .top-footer {
+        padding: 40px 10px;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    .social-links hr {
+        margin: 0 auto !important;
+    }
+
+    .copyright-footer span {
+        float: none;
+        display: block;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .home-slider .carousel-inner {
+        height: 150px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .lg-padding-lr-40px {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
