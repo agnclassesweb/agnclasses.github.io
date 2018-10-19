@@ -1,3 +1,5 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
 
 
@@ -193,11 +195,11 @@ body {
 }
 
 .course-view-hero-image {
-    background-image: url(../img/slider-4.jpg);
+    background-image: url();
 }
 
 .course-hero-image {
-    background-image: url(../img/slider-6.jpg);
+    background-image: url();
 }
 
 .course-block {
